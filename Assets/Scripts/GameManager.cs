@@ -25,6 +25,11 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    private void Start()
+    {
+        SceneManager.LoadScene("UI", LoadSceneMode.Additive);
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(restartGameKey))
@@ -54,6 +59,11 @@ public class GameManager : MonoBehaviour {
         // When the score is higher than our previous best, record a new high score.
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.Log("Starting Game");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
 }

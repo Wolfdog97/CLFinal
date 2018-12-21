@@ -11,10 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rooms.unity
     guid: ee1b1a01bf4242e4b9c15d80ebe40981
+  - enabled: 1
+    path: Assets/Scenes/End Scene.unity
+    guid: 221e7a035643bfd44bb5ebba31001da7
   - enabled: 0
     path: Assets/Scenes/WorldMenuTest.unity
     guid: 81db400e06d0f89499df4e4365d73fe7
   - enabled: 0
     path: Assets/Scenes/LevelTest.unity
     guid: 5548fee9c826c2240ae2a764909429f9
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: e023672858978ca4db986812ca27be7c
   m_configObjects: {}
