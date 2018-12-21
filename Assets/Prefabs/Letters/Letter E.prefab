@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 114425575788539348}
   m_Layer: 10
   m_Name: Letter E
-  m_TagString: Untagged
+  m_TagString: Letter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067969885445696}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 39.25, y: 1.1703849, z: 27.38}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.67877, y: 0.67877, z: 0.67877}
   m_Children:
   - {fileID: 224167535631784742}
@@ -408,7 +408,8 @@ MonoBehaviour:
   player: {fileID: 0}
   tags: []
   validLocations:
-  - {fileID: 0}
+  - {fileID: 5348556508997360165, guid: 0542f33c9fc54f24e87dc45b7ca356f5, type: 3}
+  - {fileID: 3118950404550362815, guid: 4f31c0bf0d1b5024a8e155638e14df86, type: 3}
   _originalPos: {x: 0, y: 0, z: 0}
   _originalRot: {x: 0, y: 0, z: 0}
   amPickedUp: 0
@@ -429,7 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e8701ecad946246ae6b5996cfea016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterType: 24
+  letterType: 4
 --- !u!1 &1208016689017334
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 114425575788539348}
   m_Layer: 10
   m_Name: Letter S
-  m_TagString: Untagged
+  m_TagString: Letter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,8 +31,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067969885445696}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 39.25, y: 1.1703849, z: 27.38}
-  m_LocalScale: {x: 0.67877, y: 0.67877, z: 0.67877}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.499086, y: 0.499086, z: 0.499086}
   m_Children:
   - {fileID: 224167535631784742}
   m_Father: {fileID: 0}
@@ -408,7 +408,7 @@ MonoBehaviour:
   player: {fileID: 0}
   tags: []
   validLocations:
-  - {fileID: 0}
+  - {fileID: 9181369864589907899, guid: 452bc79277f57044baceaf52f244a04f, type: 3}
   _originalPos: {x: 0, y: 0, z: 0}
   _originalRot: {x: 0, y: 0, z: 0}
   amPickedUp: 0
@@ -523,8 +523,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 1
-  m_fontSizeBase: 1
+  m_fontSize: 2
+  m_fontSizeBase: 2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hook
   - Hookable
+  - Letter
   layers:
   - Default
   - TransparentFX

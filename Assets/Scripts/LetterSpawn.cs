@@ -1,16 +1,17 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
-public class LetterSpawn : MonoBehaviour {
+public class LetterSpawn : MonoBehaviour
+{
+	public List<GameObject> prefabList = new List<GameObject>();
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public void SpawnLetters()
+	{
+		Debug.Log("Spawning Letters");
+		int prefabIndex = Random.Range(0, prefabList.Count);
+		Instantiate(prefabList[prefabIndex], transform);
 	}
 }

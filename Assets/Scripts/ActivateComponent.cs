@@ -8,6 +8,8 @@ public class ActivateComponent : MonoBehaviour
 {
     public GrapplingHook component;
     public GameObject item;
+    public GameObject placeholderItem;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -24,6 +26,8 @@ public class ActivateComponent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         ActivateComponents();
+        Destroy(placeholderItem);
+        
     }
 
     void ActivateComponents()
