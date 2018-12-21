@@ -18,12 +18,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="10" />
+          <entry key="cs" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="10" />
+          <entry key="C#" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -97,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WordScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-483">
@@ -117,6 +117,24 @@
                 <marker date="1545165736617" expanded="true" signature="1398:1663" ph="{...}" />
                 <marker date="1545165736617" expanded="true" signature="1742:1912" ph="{...}" />
                 <marker date="1545165736617" expanded="true" signature="1840:1893" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlacementLocation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-314">
+              <folding>
+                <marker date="1545162791123" expanded="false" signature="6:78" ph="..." />
+                <marker date="1545162791123" expanded="true" signature="126:842" ph="{...}" />
+                <marker date="1545162791123" expanded="true" signature="334:340" ph="{...}" />
+                <marker date="1545162791123" expanded="true" signature="395:402" ph="{...}" />
+                <marker date="1545162791123" expanded="true" signature="447:752" ph="{...}" />
+                <marker date="1545162791123" expanded="true" signature="482:749" ph="{...}" />
+                <marker date="1545162791123" expanded="true" signature="650:745" ph="{...}" />
+                <marker date="1545162791123" expanded="true" signature="798:840" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -185,6 +203,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Quit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WordScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlacementLocation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Class13Live/Assets/DialogueSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LetterSpawn.cs" root0="FORCE_HIGHLIGHTING" />
@@ -210,7 +229,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1190" />
     <option name="width" value="737" />
     <option name="height" value="1087" />
@@ -286,12 +305,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545415489693</updated>
-      <workItem from="1545415504870" duration="5602000" />
+      <workItem from="1545415504870" duration="6155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5602000" />
+    <option name="totallyTimeSpent" value="6155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,7 +322,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1753" height="993" extended-state="7" />
+    <frame x="-7" y="-7" width="1753" height="993" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -483,6 +502,22 @@
             <marker date="1545165736617" expanded="true" signature="1398:1663" ph="{...}" />
             <marker date="1545165736617" expanded="true" signature="1742:1912" ph="{...}" />
             <marker date="1545165736617" expanded="true" signature="1840:1893" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlacementLocation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <folding>
+            <marker date="1545162791123" expanded="false" signature="6:78" ph="..." />
+            <marker date="1545162791123" expanded="true" signature="126:842" ph="{...}" />
+            <marker date="1545162791123" expanded="true" signature="334:340" ph="{...}" />
+            <marker date="1545162791123" expanded="true" signature="395:402" ph="{...}" />
+            <marker date="1545162791123" expanded="true" signature="447:752" ph="{...}" />
+            <marker date="1545162791123" expanded="true" signature="482:749" ph="{...}" />
+            <marker date="1545162791123" expanded="true" signature="650:745" ph="{...}" />
+            <marker date="1545162791123" expanded="true" signature="798:840" ph="{...}" />
           </folding>
         </state>
       </provider>
